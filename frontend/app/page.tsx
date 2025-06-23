@@ -238,7 +238,7 @@ export default function VoiceAuctionPlatform() {
     const script = document.createElement("script")
     script.id = "omnidimension-web-widget"
     script.async = true
-    script.src = "https://backend.omnidim.io/web_widget.js?secret_key=YOUR_SECRET_KEY"
+    script.src ="https://backend.omnidim.io/web_widget.js?secret_key=e9f65fad7cffcae21db6c86aee35af7e"
     document.head.appendChild(script)
 
     return () => {
